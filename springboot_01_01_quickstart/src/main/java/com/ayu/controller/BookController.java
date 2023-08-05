@@ -11,6 +11,7 @@ public class BookController {
     @GetMapping
     public String selectAll(){
         System.out.println("springboot is running");
+        System.out.println("git test");
         return "springboot is running";
     }
 }
